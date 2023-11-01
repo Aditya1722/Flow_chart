@@ -32,5 +32,8 @@
 **Step 4** - generating h5 files of selected candidates
 * Your is module whose one of the tool is generating h5 files and then plotting them .  
 * The python sript we use is `your_candmaker.py` 
- 
-**Step 5** - Manual inspection of these plots 
+   * `your_candmaker.py` uses one more script `candidat.py` [Here]("https://github.com/thepetabyteproject/your/blob/72f2f988521e4095d2a29132ce8f74cbd8d994de/bin/your_candmaker.py")
+   * Difficulty in running sigporoc fake generated data . So i replaced the script of  `your_candmaker.py` with the modified `your_candmaker.py` of CHIME pipeliene(CHIPSPIPE)
+   * `your_candmaker.py` requires two things -
+     *cand.csv - consisiting information of  
+* **Step 5** - Manual inspection of these plots 
