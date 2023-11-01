@@ -2,12 +2,21 @@
 
 
 
-step 1 
+**Step 1** - PRESTO
 
-* use single_pulse_search.py of presto to get a file with ouput as shown below 
-| DM       | SNR     | tsamp    | Downsample |
-| -------- | ------- | -------- | ---------- |
-| Value 1  | Value 2 | Value 3  | Value 4    |
-| Value 5  | Value 6 | Value 7  | Value 8    |
-| Value 9  | Value 10| Value 11 | Value 12   |
+* Use single_pulse_search.py of presto to get a file with ouput example as shown in below -
+  | DM       | SNR     | tsamp    | Downsample |
+  | -------- | ------- | -------- | ---------- |
+  | 40       |   8     |   20     |     2      |
+  | 40       |   10    |   25     |     8      |
+  | 45       |   12    |   30     |     16     |
+
+* Sort these files on the basis of DM and then combine all these data in a single file.
+
+**Step 2** - SPEGID
+
+* convert the output of all the file in a csv format (it only accepts csv )
+*   
+
+
 
