@@ -27,9 +27,10 @@
 * output  of SPEGID will contain information of all the terms mentioned below being the columms -  
   filename  ,RA	, Dec	, SPEG_rank	,group_rank	, group_peak_DM	, group_max_SNR ,	group_median_SNR ,	merged , sizeU , size	, peak_DM_spacing	, peak_DM	, peak_time , peak_SNR ,	peak_sampling ,	peak_downfact	, min_DM	, max_DM ,	min_time ,	max_time ,	centered_DM ,	center_startDM ,	center_stopDM ,	clipped_SPEG ,	SNR_sym_index ,	DM_sym_index ,	peak_score ,	bright_recur_times ,	recur_times	cluster_number ,	DM_channel_number	, obs_length 
    
-* Step 3 - Need to figure out the threshold to chosing the candidate to pass make h5 files 
+**Step 3** - Need to figure out the threshold to chosing the candidate to pass make h5 files 
 
-* Step 4 - generating h5 files of selected candidates
-   
+**Step 4** - generating h5 files of selected candidates
+* Your is module whose one of the tool is generating h5 files and then plotting them .  
+* The python sript we use is `your_candmaker.py` 
  
-* Step 5 - Manual inspection of these plots 
+**Step 5** - Manual inspection of these plots 
