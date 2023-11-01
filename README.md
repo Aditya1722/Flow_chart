@@ -33,7 +33,7 @@
 * Your is module whose one of the tool is generating hDf file format and then plotting them .  
 * The python sript we use is `your_candmaker.py` 
    * `your_candmaker.py` uses one more script `candidat.py` [Here](https://github.com/thepetabyteproject/your/blob/72f2f988521e4095d2a29132ce8f74cbd8d994de/bin/your_candmaker.py")
-   * Difficulty in running sigporoc fake generated data . So i replaced the script of  `your_candmaker.py` with the modified `your_candmaker.py` of CHIME pipeliene(CHIPSPIPE)[here](https://github.com/CHIME-Pulsar-Timing/CHIME-Pulsar_automated_filterbank/blob/main/your_candmaker.py")
+   * Difficulty in running sigporoc fake generated data . So i replaced the script of  `your_candmaker.py` with the modified `your_candmaker.py` of CHIME pipeliene(CHIPSPIPE) [Here](https://github.com/CHIME-Pulsar-Timing/CHIME-Pulsar_automated_filterbank/blob/main/your_candmaker.py")
    * `your_candmaker.py` requires two things -
      * cand.csv - consisiting information of  
                 - file: Filterbank or PSRFITs file containing the data. In case of multiple files, this should contain the name of first file.   
@@ -45,6 +45,6 @@
                 - chan_mask_path: Path of the channel mask file.     
                 - num_files: Number of files.
       * filterbank file(.fil)  - should provide the path to the directory
-  * `your_candmaker.py` 
-
+  * Syntax -  
+            ` your_candmaker.py -c cand.csv -o path/to/output/directory/ `
 * **Step 5** - Manual inspection of these plots 
