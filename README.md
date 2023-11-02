@@ -46,5 +46,9 @@
                 - num_files: Number of files.
       * filterbank file(.fil)  - should provide the path to the directory
   * Syntax -  
-            ` your_candmaker.py -c cand.csv -o path/to/output/directory/ `
+            ` your_candmaker.py -c cand.csv -o path/to/output/directory/ `  
+  * Output -   
+     ![download](https://github.com/Aditya1722/Flow_chart/assets/73752922/5a36c15e-b301-4dfc-9e68-8c7741e6d98f)
+
+    
 * **Step 5** - Manual inspection of these plots 
